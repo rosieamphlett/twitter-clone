@@ -1,0 +1,26 @@
+* {
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+
+body {
+    background: #e6ecf0;
+    min-height: 100vh;
+}
+
+.App-header {
+  height: 48px;
+  background: white;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.logo {
+  max-height: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+.user {
+  max-height: 25px;
+}
