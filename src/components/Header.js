@@ -21,7 +21,7 @@ const Header = () => {
                         <span className="glyphicon glyphicon-search"></span>
                     </div>
 
-                    <img className="user" src= {require('../defaultUser.png')} alt="user" />
+                    <img className="user" src= {require('../utils/defaultUser.png')} alt="user" />
                     <button type="button"> Tweet </button>
                 </div>
             </header>

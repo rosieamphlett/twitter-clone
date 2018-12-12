@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import tweets from '../data';
+import tweets from '../utils/data';
 import moment from "moment";
 
 class Content extends Component {
@@ -21,7 +21,7 @@ class Content extends Component {
         return (
             <div className="content">
                 <article className="write-a-tweet">
-                    <img src= {require('../defaultUser.png')} alt="user" />                    
+                    <img src= {require('../utils/defaultUser.png')} alt="user" />                    
                     
                     <div className="form-group">
                         <input type="text" placeholder="What's happening?"/>
