@@ -1,6 +1,8 @@
 import React from 'react';
+import data from '../utils/data';
 
 const Header = () => {
+    const {tweets} = data;
     return (
         <div>
             <header className="header">
@@ -21,7 +23,7 @@ const Header = () => {
                         <span className="glyphicon glyphicon-search"></span>
                     </div>
 
-                    <img className="user" src= {require('../utils/defaultUser.png')} alt="user" />
+                    <img className="user" src= {tweets[6].avatar} alt="user" />
                     <button type="button"> Tweet </button>
                 </div>
             </header>

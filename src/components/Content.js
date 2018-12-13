@@ -33,7 +33,7 @@ class Content extends Component {
         return (
             <div className="content">
                 <article className="write-a-tweet">
-                    <img src= {require('../utils/defaultUser.png')} alt="user" />                    
+                    <img src={tweets[6].avatar} alt="user" />                    
                     <div className="form-group">
                         <input type="text" placeholder="What's happening?"/>
                         <span className="glyphicon glyphicon-picture"></span>
