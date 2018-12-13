@@ -1,6 +1,10 @@
 # twitter-clone
 
-SCSS Project made to replicate twitter's front end design
+SCSS Project made to replicate twitter's front end design. 
+
+Hosted Link: https://twittter.netlify.com/
+
+If you wish to run the project locally, begin by cloning this repo and then follow these instructions:
 
 ## Available Scripts
 
