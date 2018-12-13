@@ -1,6 +1,6 @@
-# twitter-clone
+# Twitter clone
 
-SCSS Project made to replicate twitter's front end design. I made up the data so each user is a character from [Parks and Recreation](https://www.imdb.com/title/tt1266020/) the TV show.
+SCSS Project made to replicate Twitter's front end design. I made up the data so each user is a character from [Parks and Recreation](https://www.imdb.com/title/tt1266020/) the TV show.
 
 Hosted Link: https://twittter.netlify.com/
 
