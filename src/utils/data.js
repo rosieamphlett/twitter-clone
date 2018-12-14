@@ -38,7 +38,7 @@ const tweets = [
     { name: 'Ann Perkins',
     username: 'annperkins',
     avatar: 'https://i.pinimg.com/originals/3f/3f/a1/3f3fa172b8b028efb69499e885433264.png',
-    text: "Halloween's my favorite holiday, and I don't have to work. Hey teenage girls dressed as sexy kittens, pump your own stomachs this year!",
+    text: "Halloween's my favorite holiday, and I don't have to work. Hey teenage girls dressed as sexy kittens, pump your own stomachs!",
     date: "2018-12-11T20:57:53.256Z",
     replies: 2,
     retweets: 1,
