@@ -30,7 +30,7 @@ body {
             margin-left: 2%;
             color: #66757f;
 
-            .glyphicon-home, .glyphicon-bell, .glyphicon-envelope, .glyphicon-flash {
+            .glyphicon {
                 font-size: 20px;
                 margin: 10px;
                 &:hover {
@@ -42,9 +42,11 @@ body {
                     font-weight: bold;
                     padding: 5px;
                     float: right;
+                    @media (max-width: 1023px) {
+                        display: none;
+                    }
                 }
             }
-
         }
 
         .header-right {
@@ -55,9 +57,13 @@ body {
             margin: 5px;
             margin-right: 1%;
 
+
             .form-group {
                 position: relative;
                 margin: auto;
+                @media (max-width: 800px) {
+                    display: none;
+                }
 
                 .glyphicon-search {
                     position: absolute;
@@ -77,7 +83,7 @@ body {
                     height: 32px;
                     border: 1px solid #e6ecf0;
                     padding-left: 10px;
-                    width: 200px;
+                    width: 100%;
                 }
             }
 
@@ -92,6 +98,9 @@ body {
             }
 
             button {
+                @media (max-width: 800px) {
+                    display: none;
+                }
                 margin-right: 30px;
                 background: $blue;
                 color: white;
@@ -107,8 +116,7 @@ body {
             }
         }
     }
-
-
+    
     .content {
         display: flex;
         justify-content: center;
@@ -162,6 +170,7 @@ body {
 
             .card {
                 position: relative;
+                
                 padding-bottom: 30px;
                 border-bottom: 1px solid $background;
 
@@ -181,7 +190,7 @@ body {
                     top: 8%;
                     
                     .aligned {
-                        padding: 0 40px;
+                        padding-left: 40px;
                         display: flex;
                         flex-direction: row;
                         margin-bottom: 5px;
@@ -204,7 +213,7 @@ body {
                     .tweet {
                         width: 100%;
                         color: #14171a;
-                        padding: 0 40px;
+                        padding-left: 40px;
                         padding-bottom: 8px;
                     }
 
@@ -217,8 +226,14 @@ body {
                         color: #657786;
                         margin-right: 250px;
                         margin-left: 20px;
+                        @media (max-width: 1250px) {
+                            display: none;
+                        }
                         
                         .glyphicon {
+                            @media (max-width: 1250px) {
+                                display: none;
+                            }
                             &:hover {
                                 color: green;
                                 cursor: pointer;
@@ -229,12 +244,21 @@ body {
                             margin: 2px;
                             font-weight: bold;
                             font-size: 12px;
+                            @media (max-width: 1250px) {
+                                display: none;
+                            }
                         }
                     }
                 }
             } 
         }
-
+    }
+        @media (max-width: 1250px) {
+            .desktop-additions {
+                display: none
+            }
+        }
+        
         .who-to-follow-card {
             width: 288px;
             position:absolute;
@@ -320,6 +344,7 @@ body {
                     transform: translateY(-115%);
                 }
             }
+
             footer {
                 padding: 20px;
                 i {
@@ -457,9 +482,6 @@ body {
                     font-size: 12px;
                     color: #66757f;
                 }
-            }
-
         }
-
     }
 }

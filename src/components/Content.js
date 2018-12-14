@@ -40,9 +40,11 @@ class Content extends Component {
                     </div>
                 </article>
                 <article className="tweets">{allTweets}</article>
-                <RecommendedFriends />
+                <div className="desktop-additions">
+                <RecommendedFriends query="(min-device-width: 1024px)"/>
                 <UserProfile />
                 <Trends />
+                </div>
             </div>
         );
     }

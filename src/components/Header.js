@@ -19,7 +19,7 @@ const Header = () => {
 
                 <div className="header-right">
                     <div className="form-group">
-                        <input type="text" placeholder="Search Twitter"/>
+                        <input type="text" placeholder="Search"/>
                         <span className="glyphicon glyphicon-search"></span>
                     </div>
 
